@@ -26,7 +26,10 @@
   "homepage": "https://github.com/demangejeremy/HelloWorldElectron#readme",
   "devDependencies": {
     "electron": "^7.1.1",
-    "electron-builder": "^22.1.0"
-
+    "electron-builder": "^22.1.0",
+    "electron-rebuild": "^1.8.6"
+  },
+  "dependencies": {
+    "r-script": "0.0.4"
   }
 }

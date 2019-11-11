@@ -1,0 +1,32 @@
+{
+  "name": "helloworldelectron",
+  "version": "1.0.0",
+  "description": "Say Hello World with Electron library on NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demangejeremy/HelloWorldElectron.git"
+  },
+  "build": {
+    "appId": "helloworld.demangejeremy",
+    "mac": {
+      "category": "helloworld.demangejeremy.utilities.test"
+    }
+  },
+  "author": "Jeremy DEMANGE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demangejeremy/HelloWorldElectron/issues"
+  },
+  "homepage": "https://github.com/demangejeremy/HelloWorldElectron#readme",
+  "devDependencies": {
+    "electron": "^7.1.1",
+    "electron-builder": "^22.1.0"
+
+  }
+}
